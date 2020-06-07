@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alexmojaki/instant_client.svg?branch=master)](https://travis-ci.org/alexmojaki/instant_client) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/instant_client/badge.svg?branch=master)](https://coveralls.io/github/alexmojaki/instant_client?branch=master) [![Supports Python versions 3.7+](https://img.shields.io/pypi/pyversions/instant_client.svg)](https://pypi.python.org/pypi/instant_client)
 
-A type-safe [JSON-RPC](https://www.jsonrpc.org/) client with automatic (de)serialization.
+A type-safe [JSON-RPC](https://www.jsonrpc.org/) client with automatic (de)serialization. This makes it easy to use classes instead of raw dictionaries and allows your IDE or other tools to spot errors and give you assistance.
 
     pip install instant-client
     
